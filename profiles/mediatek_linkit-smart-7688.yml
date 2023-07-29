@@ -1,0 +1,8 @@
+---
+profile: mediatek_linkit-smart-7688
+target: ramips
+subtarget: mt76x8
+description: Build image for the Mediatek LinkIt Smart 7688
+image: bin/targets/mediatek/ramips/mt76x8/openwrt-mediatek-ramips-mt76x8-linkit7688-squashfs-sysupgrade.bin
+packages:
+  - kmod-tun

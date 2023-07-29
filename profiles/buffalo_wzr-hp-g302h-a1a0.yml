@@ -1,0 +1,10 @@
+---
+profile: buffalo_wzr-hp-g302h-a1a0
+target: ath79
+subtarget: generic
+description: Build image for the Buffalo WZR-HP-G302H-A1A0
+image: bin/targets/ath79/generic/openwrt-ath79-generic-buffalo_wzr-hp-g302h-a1a0-squashfs-sysupgrade.bin
+include:
+  - webui
+packages:
+  - kmod-tun
