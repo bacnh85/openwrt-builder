@@ -1,0 +1,9 @@
+---
+description: Add the IoT packages
+feeds:
+  - name: matter
+    uri: https://github.com/project-chip/matter-openwrt.git
+    branch: main
+packages:
+  - matter-netman
+ 
