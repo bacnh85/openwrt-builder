@@ -1,0 +1,7 @@
+---
+description: Add the devel dependencies
+packages:
+  - strace
+  - gdbserver
+  - gdb
+
